@@ -12,4 +12,7 @@ pipeline {
       }
     }
   }
+  environment {
+    MAVEN_HOME = 'C:\\Program Files (x86)\\apache-maven-3.5.3'
+  }
 }
